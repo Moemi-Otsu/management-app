@@ -4,7 +4,7 @@ services:
   web:
     build:
       context: .
-      dockerfile: ./docker/Dockerfile
+      dockerfile: ./docker/php
     volumes:
       - ./:/var/www/management-app/current
 
